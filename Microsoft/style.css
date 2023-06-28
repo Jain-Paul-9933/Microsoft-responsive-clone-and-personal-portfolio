@@ -1,0 +1,55 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.nav-link{
+    font-size: small;
+    color: black;
+    padding: 10px;
+}
+.btn{
+    font-size: small;
+    color: black;
+}
+.carousel-xl,.carousel-lg{
+    display: flex;
+    position: relative;
+}
+.card1-xl,.card1-lg,.card2-xl{
+    display: flex;
+    position: absolute;
+    top: 30%;
+    width: 30%;
+    justify-content: flex-start;
+}
+.card1-xl{
+    left: 10%;
+}
+.card1-lg{
+    left: 10%;
+}
+.card2-xl{
+    left: 70%;  
+}
+.btn1,.btn2{
+    font-size:medium;
+    font-weight: bold;
+    border: none;
+    border-radius: 0;
+
+}
+.btn1{
+    background-color: rgb(16, 133, 236);
+}
+.xbox-card{
+    width: 30%;
+    height: 30%;
+    left: 60%;
+    top: 35%;
+}
+.logos{
+    width:35px;
+}
+.list-item{
+    font-size:  10px;;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
